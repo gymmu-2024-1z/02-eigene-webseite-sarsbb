@@ -6,6 +6,7 @@
 
 /* Hier können Stiele für die ganze Webseite angegeben werden. */
 body {
+    background: linear-gradient(20deg, rgb(204, 144, 169), rgb(136, 20, 90));
     margin: 0;
 }
 
