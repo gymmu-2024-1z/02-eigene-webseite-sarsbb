@@ -20,7 +20,7 @@ body {
     display: flex; /* Richtet die Elemnte in einer Zeile oder Reihe aus. */
     flex-direction: row; /* In einer Reihe ausgerichtet. */
     gap: 1rem; /* Abstand zwischen den Elementen.*/
-    align-items: center; /* Ausrichtung in der Mitte entlang der anderen Achse. */
+    align-items: start; /* Ausrichtung in der Mitte entlang der anderen Achse. */
     justify-content: center; /* Ausrichtung in der Mitte entlang der Hauptachse */
     margin: 1rem; /* Abstand auf allem Seiten. */
 }
