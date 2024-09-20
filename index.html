@@ -16,8 +16,40 @@
             <!-- Im header wird der Kopf der Webseite angegeben.
             Dies ist aber nur ein Struktur-Element. Damit der Header auch immer
             ganz oben angezeigt wird, braucht es noch das richtige CSS dafür. -->
-            <h1>Webseite von ...</h1>
+            <h1>Webseite von Sara Santos</h1>
         </header>
+        <h2>Mein Logo</h2>
+        <svg height="300" width="300">
+            <circle
+                cx="150"
+                cy="150"
+                r="100"
+                fill="purple"
+                stroke="pink"
+                stroke-width="10"
+            />
+            <circle cx="115" cy="130" r="20" fill="pink" />
+            <clipPath id="clip-circle">
+                <circle cx="150" cy="175" r="37" fill="pink" />
+            </clipPath>
+            <rect
+                x="50"
+                y="170"
+                width="300"
+                height="200"
+                fill="pink"
+                clip-path="url(#clip-circle)"
+            ></rect>
+
+            <ellipse cx="185" cy="130" rx="20" ry="50" fill="pink">
+                <animate
+                    attributeName="ry"
+                    values="25;1;25"
+                    dur="1s"
+                    repeatCount="indefinite"
+                />
+            </ellipse>
+        </svg>
 
         <nav>
             <!-- Das Navigations-Element beinhaltet eine Liste von Links, mit
@@ -28,6 +60,9 @@
             <ul>
                 <li>
                     <a href="./pages/hobbies.html">Hobbies</a>
+                </li>
+                <li>
+                    <a href="./pages/mein-umfeld.html">Mein Umfeld</a>
                 </li>
             </ul>
         </nav>
@@ -41,39 +76,78 @@
                 <!-- Dieses Element wird verwendet um einen Abschnitt auf der
                 Webseite vom Rest abzutrennen. Für Abschnitte in einem Text
                 verwendet man das p-Element. -->
-                <h2>Erster Abschnitt</h2>
+                <h2>Wer bin ich?</h2>
                 <p>
                     <!-- Mit dem p-Element Teilt man einen Text in Paragraphen
                     ein. Das p-Element hat meistens nur noch Text, Links oder
                     Bilder drin, sonst keine weiteren Elemente. -->
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea
-                    itaque eaque vel necessitatibus amet consectetur corrupti
-                    repudiandae ipsam aliquam sint.
+                    Mein Name ist Sara Santos Navarro, ich bin neu am Gymnasium
+                    Muttenz und bin 15 Jahre alt. Diese Webseite wird euch
+                    einbisschen über mich verraten. Wenn ihr mich kennenlernen
+                    wollt könnt ihr gerne weiterlesen.
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                    natus magni non cumque voluptatum similique ullam
-                    temporibus. Magni sequi sunt temporibus ab a nobis quo non,
-                    molestias sapiente dolorum repellendus obcaecati odit, dolor
-                    quae illo ratione, veniam autem id praesentium. Consectetur,
-                    totam asperiores expedita culpa doloribus nesciunt error
-                    architecto dolorum!
+                    Mein Umfeld ist mir besonders wichtig. Es ist mir wichtig
+                    von den richtigen Menschen umgeben zu sein. Ich denke, dass
+                    das eine der wichtigsten Dinge im Leben ist. Trotzdem sollte
+                    man wissen, wie man alleine klarkommt, auch wenn die Freunde
+                    und Familie einen grossen Teil ausmachen. Besonders gut
+                    verstehe ich mich mit meinen zwei besten Freundinnen Alina
+                    Rrahmani und Sara Heimgartner. Mit ihnen bin ich seit der 1.
+                    Klasse in der Primarschule befreundet und sie haben mich in
+                    allen meinen guten und schlechten Zeiten begleitet. Nicht
+                    nur kann ich mit ihnen wie mit keinen anderen Personen
+                    lachen, sondern kann auch mit ihnen über alles reden.
                 </p>
             </section>
 
             <section>
-                <h2>Abschnitt mit Text und Bild</h2>
+                <h2>Meine Geschichte</h2>
+                <h4>Sara Santos</h4>
+                <h3>und mein Alltag</h3>
                 <div class="text-and-img">
                     <!-- Hier wird eine Klasse verwendet, die in CSS angibt wie das
                     Element gestaltet werden soll. Es werden hier 2 Kinder-Elemente
                     verwendet, damit wir den Effekt von einem Text neben einem Bild
                     einfach hinbekommen können. -->
+                    <div class="image">
+                        <img
+                            src="/c:\Users\sarsb\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\BA3E9B6A519CFDDC560B5D53210DF1BD\WhatsApp Bild 2024-09-10 um 21.16.49_d5499bb6.jpg"
+                            alt=""
+                        />
+                    </div>
                     <div class="text">
-                        Hier ist eine Beschreibung von dem Bild, oder einfach
-                        Text der dazu passen könnte.
+                        Ich wohne nicht mein ganzes Leben in der Schweiz. Mit
+                        meinen jungen drei und halb Jahren fuhr ich 2 Tage lang
+                        mit dem Auto in die Schweiz, um auch hier zu leben. Es
+                        war schwer sich an eine neue Umgebung zu gewöhnen, doch
+                        für mich war es noch ganz einfach. Meine Schwester hatte
+                        jedoch mehr Probleme als ich, da sie im Alter von 13
+                        erst in die Schweiz kam. Es war eine grosse Veränderung
+                        und sie hatte viele Schwierigkeiten mit der Sprache. Es
+                        geling ihr erst nach 3 Jahren die Sprache zu meistern.
+                        Ich konnte die Sprache schon nach einem halben Jahr die
+                        Sprache sprechen. Damit wir nicht ohne Plan in der
+                        Schweiz ankamen, fuhr mein Vater 6 Monate vor uns. Er
+                        suchte sich eine Arbeitsstelle und fing an Geld zu
+                        sparen. Auch suchte er uns eine Wohnung, in der wir über
+                        die nächsten zwei Jahre lebten. Ich verbrahcte meine
+                        ersten zwei Jahre mit meinen besten Freundinnen Yagmur
+                        und Pinar. Über sie zwei erzähle ich auf der Seite "mein
+                        Umfeld" mehr. wir zogen dann in eine Wohnung gleich
+                        daneben, weil sie einen Balkon hatte. in dieser Wohnung
+                        habe ich die letzten 10 Jahre gelebt und habe nicht vor
+                        bald auszuziehen. Ich habe ein ziemlich entspanntes
+                        Leben. Ich wache morgens auf und mache mich bereit, um
+                        in die Schule zu gehen. Meistens habe ich bis ca. 15:00
+                        Schule, doch manchmal auch bis 17:00. Wenn ich nach
+                        Hause komme, lerne ich für die Schule oder mache meine
+                        Hausaufgaben. Danach gehe ich ins Gym und verbringe dort
+                        um die ein und halb Stunden. Zuhause esse ich dann noch
+                        was und gehe dann schlafen.
                     </div>
                     <div class="image">
-                        <img src="/img/mountains.png" alt="" />
+                        <img src="/img/Sara-Kleine-baby.jpg" alt="" />
                     </div>
                 </div>
             </section>
@@ -81,6 +155,7 @@
 
         <footer>
             <!-- Hier kommt die Fusszeile der Webseite -->
+            <h4>Sara Santos</h4>
         </footer>
     </body>
 </html>

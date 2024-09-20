@@ -6,6 +6,7 @@
 
 /* Hier können Stiele für die ganze Webseite angegeben werden. */
 body {
+    background: linear-gradient(20deg, rgb(198, 151, 170), rgb(192, 104, 157));
     margin: 0;
 }
 
@@ -20,7 +21,7 @@ body {
     display: flex; /* Richtet die Elemnte in einer Zeile oder Reihe aus. */
     flex-direction: row; /* In einer Reihe ausgerichtet. */
     gap: 1rem; /* Abstand zwischen den Elementen.*/
-    align-items: center; /* Ausrichtung in der Mitte entlang der anderen Achse. */
+    align-items: start; /* Ausrichtung in der Mitte entlang der anderen Achse. */
     justify-content: center; /* Ausrichtung in der Mitte entlang der Hauptachse */
     margin: 1rem; /* Abstand auf allem Seiten. */
 }
@@ -29,4 +30,18 @@ body {
 .text-and-img img {
     border-radius: 2rem; /* Damit können die Ecken abgerundet werden. */
     width: 100%; /* Braucht es damit das Bild im Container bleibt und nicht viel zu gross ist. */
+}
+
+.my-text-with-img {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.my-text-with-img img {
+    width: 100%;
+}
+hobbies.html {
+    background-color: rgb(226, 133, 213);
+    margin: 0%;
 }
